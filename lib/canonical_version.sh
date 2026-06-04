@@ -8,7 +8,7 @@ erlang_builds_url() {
     "heroku-22")
       erlang_builds_url="https://builds.hex.pm/builds/otp/ubuntu-22.04"
       ;;
-    "heroku-24")
+    "heroku-24"|"scalingo-24")
       erlang_builds_url="https://builds.hex.pm/builds/otp/ubuntu-24.04"
       ;;
     "heroku-26")
